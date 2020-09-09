@@ -1,0 +1,11 @@
+1. Permission Checker:
+> .\accesschk.exe /accepteula -uwcqv username  servicename
+2. Configuration Checker:
+> sc qc serviceName
+3. Status Checker:
+> sc query ServiceName
+4. Change BinPath:
+> sc config ServiceName binpath= YourPayload
+5. Start/Stop Service:
+> net start/stop ServiceName
+
